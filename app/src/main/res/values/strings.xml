@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Stormy</string>
+    <string name="error_alert_dialog_fragment_title">Error</string>
+    <string name="error_alert_dialog_fragment_message">Error occured!</string>
+    <string name="error_alert_dialog_fragment_positive">OK</string>
+    <string name="error_network_unavailable">Network is unavailable!</string>
 </resources>
