@@ -98,13 +98,8 @@ public class MainActivity extends AppCompatActivity {
 
         NetworkInfo networkInfo = manager.getActiveNetworkInfo();
 
-        boolean isAvailable = false;
+	return networkInfo != null && networkInfo.isConnectedOrConnecting();
 
-        if (networkInfo != null && networkInfo.isConnected()) {
-            isAvailable = true;
-        }
-
-        return isAvailable;
     }
 
     private void alertUser() {
